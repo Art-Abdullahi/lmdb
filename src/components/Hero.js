@@ -34,7 +34,6 @@ const StyledHeroImage = styled.div`
     color: #eee20c;
 
     h1 {
-      font-family: "Abel", sans-serif;
       font-size: 48px;
       color: #eee20c;
 
@@ -45,7 +44,6 @@ const StyledHeroImage = styled.div`
     }
 
     p {
-      font-family: "Abel", sans-serif;
       font-size: 22px;
       line-height: 26px;
       color: #eee20c;

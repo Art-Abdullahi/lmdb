@@ -24,7 +24,6 @@ const Home = () => {
   if (!state.movies[0]) return <Spinner />;
   return (
     <React.Fragment>
-      <Header />
       <Hero
         image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${state.heroImage.backdrop_path}`}
         title={state.heroImage.original_title}
